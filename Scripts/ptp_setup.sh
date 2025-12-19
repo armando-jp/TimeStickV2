@@ -95,6 +95,8 @@ while [ $ATTEMPTS -lt $MAX_ATTEMPTS ]; do
         log_message "Successfully assigned IP ${MY_IP} to ${DEVICE}."
         ip link set dev "$DEVICE" up
         log_message "Interface ${DEVICE} brought up."
+        log_message "Waiting 10 seconds for link stabilization..."
+        sleep 10
         IP_ASSIGNED=true
         break
     fi
