@@ -99,3 +99,7 @@ Usage: ./ptp_setup.sh <device_name> <mode>
 
 ## Schematics
 [TimeStickV2 Schematics](/Schematics/Schematic%20Prints.PDF)
+
+## DIP Switch Settings
+The onboard SMA can be configured as either an input or output via DIP switch settings. Below is a table showing the possible configurations for the DIP switch and the corresponding direction.
+![TimeStickV2SMA](/Images/2026-01-04_DIP_Switch_Settings.png)
